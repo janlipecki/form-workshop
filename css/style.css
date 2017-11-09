@@ -1,7 +1,26 @@
-* {
+form {
+    width: 50%;
     background-color: #213b50;
+    padding: 15px;
 }
 
 .white-font {
     color: #ffffff;
+}
+
+input {
+    background-color: #2b4a64;
+    color: #ffffff;
+    border-style: none;
+}
+
+textarea {
+    background-color: #2b4a64;
+    color: #ffffff;
+    border: none;
+}
+
+#miasto {
+   background-color: #2b4a64;
+   color: #ffffff;
 }
