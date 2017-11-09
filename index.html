@@ -11,16 +11,45 @@
 
         <label for="surname">Nazwisko:<br/></label>
         <input type="text" name="surname" id="surname" /><br/>
-        
+
         <label for="email">Email:<br/></label>
         <input type="email" name="email" id="email" /><br/>
-        
+
         <label for="tel">Telefon:<br/></label>
         <input type="tel" name="tel" id="tel" /><br/>
-        
+        <br/>
+
+        <label for="miasto">Wybór miasta:</label>
+        <select id="miasto">
+          <option value="krakow">Kraków</option>
+          <option value="warszawa">Warszawa</option>
+          <option value="gdansk">Gdańsk</option>
+        </select>
+        <br/>
+
+        <br/>Płeć:
+        <label for="gender1">
+              <input type="radio" id="gender1" name="gender">
+              Mężczyzna
+            </label>
+        <label for="gender2">
+              <input type="radio" id="gender2" name="gender">
+              Kobieta
+            </label>
+        <label for="gender3">
+              <input type="radio" id="gender3" name="gender">
+              Odmawiam odpowiedzi<br/>
+            </label>
+        <br/>
+
+        <label for="checkbox">
+                <input type="checkbox" id="checkbox">Wyrażam zgodę na przetwarzanie moich danych osobowych zawartych w mojej ofercie pracy dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawą z dnia 29.08.1997 roku o Ochronie Danych Osobowych; tekst jednolity: Dz. U. z 2002r. Nr 101, poz. 926 ze zm.)<br/>
+            </label>
+        <br/>
+
         <label for="msg">Wiadomość:<br/></label>
         <textarea name="msg" id="msg" cols="30" rows="10"></textarea><br/>
-        
+
         <input type="submit" value="Wyślij">
     </form>
 </body>
