@@ -8,6 +8,7 @@ form {
     color: #ffffff;
 }
 
+/*mogłem tu dać form input {} - po jakimś czasie działania wyszedł problem, bo z :focus nie wychodzi - nie chce mi zrobić bo mam nadpisane*/
 input {
     background-color: #2b4a64;
     color: #ffffff;
@@ -18,9 +19,17 @@ textarea {
     background-color: #2b4a64;
     color: #ffffff;
     border: none;
+    padding: 5px;
 }
 
 #miasto {
    background-color: #2b4a64;
    color: #ffffff;
+}
+
+form input[type="submit"] {
+    background-color: limegreen;
+    color: #FFF;
+    width 20%;
+    text-transform: uppercase;
 }
